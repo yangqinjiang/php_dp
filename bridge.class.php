@@ -1,6 +1,7 @@
 <?php
 ////桥接模式 bridge
 //论坛给用户发信息可以是站内容,email.手机
+//减小类的维度
 abstract class info{
 	protected $send=null;
 	public function __construct($send)
